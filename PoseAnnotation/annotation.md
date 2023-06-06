@@ -2,6 +2,10 @@
 
 The task of annotating 2D human pose involves identifying and marking key points on a person's body in an image. These key points correspond to important joints such as shoulders, elbows, wrists, hips, knees, and ankles. Your goal as an annotator is to accurately label these keypoints, enabling the understanding of the body's pose and movement for various applications like motion analysis, fitness tracking, and animation.
 
+## Examples
+
+There are some examples in this [file](examples.md)
+
 ## How to start
 
 ToDo
@@ -53,7 +57,7 @@ Here is a short list of common error in the data:
 - Face annotated as visible when the person is facing away
 - Missing annotation of the limb (eg. wrist) when it is visible
 - Wrong visibility of the limbs
-- 
+
 ## Exporting results
 
 The application automatically saves your progress when you switch to another image or exit the application. Once the folder is complete, you can simply send the annotation file (usually named '_person_keypoints_val2017.json_') via email.
