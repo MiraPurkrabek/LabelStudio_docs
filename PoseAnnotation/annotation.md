@@ -16,6 +16,8 @@ After opening the application, you will see the first image from the dataset. Ea
 
 To adjust the keypoints, use your mouse to click on a keypoint and drag it around the image. For more editing options, refer to the keyboard shortcuts provided below.
 
+> __Joint location:__ The keypoint is where the joint rotates. It's around the middle of the limb, in terms of width.
+
 ### Keyboard Shortcuts
 
 The pose annotation tool offers several keyboard shortcuts to improve your annotation workflow:
@@ -35,7 +37,7 @@ The pose annotation tool offers several keyboard shortcuts to improve your annot
 | `q`      | **Quit** the program (with save)                                                                         |
 
 
-### Annotated v. Un-annotated images
+### Annotated vs. Un-annotated images
 
 If a person has already been annotated in the application, their bounding box will be displayed in a darker shade of green. You can still view previously annotated persons for later reference. To skip directly to the next unfinished task, press the 'u' key.
 
