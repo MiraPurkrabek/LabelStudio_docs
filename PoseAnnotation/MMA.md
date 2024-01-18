@@ -27,7 +27,12 @@ Please avoid selecting frames with:
 
 If a frame is relevant, annotate it by drawing bounding boxes around all individuals in the ring, which typically include fighters and a referee, but occasionally may also feature a medic or coach.
 
-Refer to the provided files for examples: LINK contains correct scenes with annotations, while LINK displays scenes that should not be annotated.
+> __Bounding box:__ Smallest rectangle containing all *visible* parts of the person.
+
+Refer to the provided files for examples:
+
+- [positive samples](MMA_positive.md) contains scenes with annotations
+- [negative samples](MMA_negative.md) contains scenes that should not be annotated.
 
 ## Pose Annotation with Extended Visibility
 
